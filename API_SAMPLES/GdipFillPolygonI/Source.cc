@@ -1,6 +1,4 @@
-//#include <stdafx.h>
 #include <windows.h>
-
 
 #define GDIPVER 0x0110
 #include <gdiplus.h>
@@ -44,8 +42,8 @@ INT WINAPI WinMain(HINSTANCE hInstance, HINSTANCE, PSTR, INT iCmdShow)
 		WS_OVERLAPPEDWINDOW,      // window style
 		CW_USEDEFAULT,            // initial x position
 		CW_USEDEFAULT,            // initial y position
-		1000,            // initial x size
-		1000,            // initial y size
+		900,            // initial x size
+		450,            // initial y size
 		NULL,                     // parent window handle
 		NULL,                     // window menu handle
 		hInstance,                // program instance handle
